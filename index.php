@@ -2,7 +2,6 @@
 
 require_once('classi.php');
 
-
 try {
     $impiegato_salariato = new ImpiegatoSalariato("Mario", "Rossi", "xxxxx", "0124", 80, 25);
     $impiegato_a_ore = new ImpiegatoAOre("Pippo", "Disney", "alkdfleger", "7156", 160, 10);
